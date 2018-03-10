@@ -208,7 +208,7 @@ titleBasicMapCountBytitleDF.coalesce(1).save("/user/cloudera/output_spark/IMDb_O
 
 ```
 
-* ### Find out the below details(Title name,rating,Role of the person) by person "Henry Fonda"
+* ### Find out the below details(Title name,rating,Role in title) by person "Henry Fonda"
 
 ```py 
 
