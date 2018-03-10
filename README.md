@@ -1,4 +1,4 @@
-# IMDb-dataset-using-Pyspark
+# IMDb dataset analysis using Pyspark
 
 Analysis of  different titles(movie,short,game,tvSeries,tvEpisode e.t.c), actor,actress,director details,rating of the titles from IMDb site using PySpark core API
 
