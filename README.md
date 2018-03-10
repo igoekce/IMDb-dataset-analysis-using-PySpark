@@ -13,7 +13,7 @@ Total size of the datset is `2.21GB`
 Each dataset is contained in a `tab-separated-values (TSV) formatted` file in the UTF-8 character set. The **first line in each file contains headers** that describe what is in each column. A ‘\N’ is used to denote that a particular field is missing or null for that title/name. The available datasets are as follows: 
 
   #### `title_basics`  : 
-  Contains the title information
+  Contains the title information. Total records `48,41,997`
   
   * tconst (string) - alphanumeric unique identifier of the title
   * titleType (string) – the type/format of the title (e.g. movie, short, tvseries, tvepisode, video, etc)
@@ -26,7 +26,7 @@ Each dataset is contained in a `tab-separated-values (TSV) formatted` file in th
   * genres (string array) – includes up to three genres associated with the title
   
   #### `title_episode` : 
-  Contains  the TvEpisode information
+  Contains  the TvEpisode information. Total records `32,32,668`
   
   * tconst (string) - alphanumeric identifier of episode
   * parentTconst (string) - alphanumeric identifier of the parent TV Series
@@ -34,21 +34,21 @@ Each dataset is contained in a `tab-separated-values (TSV) formatted` file in th
   * episodeNumber (integer) – episode number of the tconst in the TV series
   
   #### `title_ratings` : 
-  Contains IMDb rating and vote details for all titles(tconst)
+  Contains IMDb rating and vote details for all titles(tconst). Total records `8,09,771`
   
   * tconst (string)
   * averageRating – weighted average of all the individual user ratings
   * numVotes - number of votes the title has received
   
   #### `title_principals` :
-   Contains the  cast for titles
+   Contains the  cast for titles. Total records `2,72,49,014`
    
    * tconst (string) - alphanumeric unique identifier of the title
    * ordering (integer) - ordering of title
    * nconst (string) - alphanumeric unique identifier of the name/person
    
   #### `name_basics` :
-   Contains the following information for names
+   Contains the following information for names. Total records `84,57,510`
    
    * nconst (string) - alphanumeric unique identifier of the name/person
    * primaryName (string)– name by which the person is most often credited
@@ -58,7 +58,7 @@ Each dataset is contained in a `tab-separated-values (TSV) formatted` file in th
    * knownForTitles (array of tconsts) – titles the person is known for
 
   #### `title_crew` : 
-   Contains the director and writer information
+   Contains the director and writer information.Total records `4841997`
    
   * tconst (string)
   * directors (array of nconsts) - director(s) of the given title
